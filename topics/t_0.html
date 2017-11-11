@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Keywords" content="">
+    <meta name="Description" content="">
+    <meta name="viewport" content="width=320, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;">
+    <title>...</title>
+    <link rel="stylesheet" href="http://www.xblym.cn/static/nx1/css/style.css">
+    <link rel="stylesheet" href="http://www.xblym.cn/static/nx1/css/media.css">
+    <link rel="stylesheet" href="http://www.xblym.cn/static/nx1/css/wx.css">
+    <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/jquery.cookie.js"></script>
+    <script src="../js/url.js"></script>
+    <style type="text/css">
+    	body {
+    		margin: 0;
+    		padding-bottom: 94px;
+    	}
+    	img {
+    		width: 100%;
+    		display: block;
+    	}
+    	.flex {
+			display: -webkit-box;
+			display: -webkit-flex;
+			display: -ms-flexbox;
+			display: flex;
+		}
+		.flex1 {
+			-webkit-box-flex: 1;
+			-webkit-flex: 1;
+			-ms-flex: 1;
+			flex: 1;
+		}
+    	.gif {
+    		border-right: 1px solid #d9dadc;
+    		border-left: 1px solid #d9dadc;
+    		box-sizing: border-box;
+    	}
+    	footer {
+    		position: fixed;
+    		left: 0;
+    		bottom: 0;
+    		width: 100%;
+		    height: 90px;
+	        background: #FFF;
+	        z-index: 999;
+            border: 1px solid #CCC;
+    	}
+    	footer img {
+    		width: 50%;
+    	}
+    </style>
+    
+    <script>
+        function onBridgeReady() {
+            wx.config({
+                beta: true,
+                debug: false,
+                appId: null,
+                timestamp: null,
+                nonceStr: null,
+                signature: null,
+            });
+            wx.ready(function(){
+                wx.hideMenuItems({
+                    menuList: ['menuItem:exposeArticle'],
+                    success: function(res) {},
+                    fail: function(res) {}
+                });
+                wx.hideOptionMenu();
+            });
+        }
+        onBridgeReady();
+    </script>
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script></head>
+<body style="height: 10195px;">
+<img src="../images/t_0/t_0_1.jpg"/>
+<img src="../images/t_0/t_0_2.jpg"/>
+<img src="../images/t_0/598c013a4cba8.gif" class="gif"/>
+<img src="../images/t_0/t_0_3.jpg"/>
+<img src="../images/t_0/598c013a4cba8.gif" class="gif"/>
+<img src="../images/t_0/t_0_4.jpg"/>
+<img src="../images/t_0/598c013a4cba8.gif" class="gif"/>
+<img src="../images/t_0/t_0_6.jpg"/>
+<footer class="flex">
+	<img src="../images/t_0/598c013a4cba8.gif" class="flex1"/>
+	<img src="../images/t_0/t_0_5.jpg" class="flex1"/>
+</footer>
+<!--<iframe scrolling="no" frameborder="0" height="100%" id="mainFrame" width="100%" onload='IFrameReSize("mainFrame");IFrameReSizeWidth("mainFrame");' src="http://vfg.rzxjt.com/2564/id/?redirect=http%3A%2F%2Fmjy.yhgmall.com%2F1453%2Fid%2F7%2F641_yfqhno1_4508.html"></iframe>-->
+<script>
+    window.onload = function () {
+        var name_arr = ['13048018764',
+            '13060884943',
+            '13242848871',
+            '13268258937',
+            'qiangshen10',
+            'qiangshen13',
+            '15360842541',
+            'tianji248',
+            'tianji2355',
+            'tianji2611',
+            'tianjs0098',
+            'tianjs2533',
+            'tianjs6538',
+            'tianjs6625',
+            'tianjs8588',
+            'tiansi1666',
+            'ttfd5653',
+            'qiangshen08',
+            'tianjs0009',
+            'tianlele3568',
+            'tianjs8869',
+            '15521052335',
+            'tianjs68',
+            'qiangshen09'];
+        var index = Math.floor((Math.random()*name_arr.length));
+        $('.statistics02').html(name_arr[index]);
+        $('.qrimg').attr("src","");
+        var num = rnd(26,49);
+        var src = "http://oywkkib8f.bkt.clouddn.com/e"+num+".jpg";
+        $('.qrimg').attr("src",src);
+    }
+    function rnd(n, m){
+        var random = Math.floor(Math.random()*(m-n+1)+n);
+        return random;
+    }
+    function anchor() {
+        history.pushState(history.length + 1, "message", "#" + new Date().getTime())
+    }
+    /*
+    function zp() {
+        eval("top.location.href='http://"+get_url+"/topics/t_1.html'");
+    }
+    setTimeout('anchor()', 100);
+    window.onhashchange = function() {
+        zp();
+    };
+    */
+</script>
+<div style="display: none;">
+    <script src="https://s13.cnzz.com/z_stat.php?id=1267806138&web_id=1267806138" language="JavaScript"></script>
+    <script src="https://s22.cnzz.com/z_stat.php?id=1267797339&web_id=1267797339" language="JavaScript"></script>
+</div>
+</body>
+</html>

